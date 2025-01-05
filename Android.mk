@@ -6,12 +6,12 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),gta4xlwifi)
 
-$(call add-radio-file-sha1-checked,radio/cm.bin_SM-P610,7df927ba1e454a94692310e41bdefc166b55906f)
-$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-P610,b60ce082f655277c54d8deadd6849ebcb035bdc9)
+$(call add-radio-file-sha1-checked,radio/cm.bin_SM-P610,71e1487e45cbb17d0e89ba80d2015456ae00e5b1)
+$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-P610,68f963d59bab4c0a30f463f9d942656faad7fee2)
 $(call add-radio-file-sha1-checked,radio/models,0a5c3b2cef8f0c09b09f80363601f16491824a89)
-$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-P610,5e1a94c0bf3172e84ecbe2328afec48f37787cf6)
-$(call add-radio-file-sha1-checked,radio/uh.bin_SM-P610,7cb5f2a8142421bd596b2da734c0ba54d2294ceb)
-$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-P610,48eb7cdb957cff1536db0046a16f10c185df55b0)
-$(call add-radio-file-sha1-checked,radio/version_SM-P610,6f9ab9aa5b0a3e9ab460eb063c16bfc7d4dbc6c2)
+$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-P610,0dbe58c60049a5394de3447358614084b172e501)
+$(call add-radio-file-sha1-checked,radio/uh.bin_SM-P610,edf7765cd03d7246b7a3593fcb047cb1fe6f03f8)
+$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-P610,b2cc55f350e3cd97ff9252b97ce51d389b03981a)
+$(call add-radio-file-sha1-checked,radio/version_SM-P610,97072a89811f8cdebe05ed7944eeb66461f6c01c)
 
 endif
